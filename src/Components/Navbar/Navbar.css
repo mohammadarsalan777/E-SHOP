@@ -1,0 +1,15 @@
+/* Create a class for the blurred content */
+.blurred-content {
+    /* Apply background image or color */
+    /* For example: */
+    /* background-image: url('your-background-image.jpg'); */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for blur effect */
+    filter: blur(8px); /* Add blur effect to the content */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind the navbar */
+  }
+  
